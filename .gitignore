@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+
+# 环境/依赖
+.env
+.venv/
+venv/
+
+# 日志和输出
+*.log
+log.output
+*.out
+*.err
+
+# 数据和模型
+/model/
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.bin
+*.h5
+*.npz
+*.npy
+prompt32k.txt
+payload.json
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# 测试脚本生成
+*.tmp
+*.bak
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 其他
+nohup.out 
